@@ -1,0 +1,40 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/usernameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa tu nombre de usuario"
+        android:layout_marginBottom="50dp"/>
+
+    <Button
+        android:id="@+id/buttonPlay"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#375AED"
+        android:text="Jugar" />
+
+    <Button
+        android:id="@+id/buttonRanking"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#FFEB3B"
+        android:text="Ranking" />
+
+    <Button
+        android:id="@+id/buttonContact"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:backgroundTint="#FF5722"
+        android:text="Contacto" />
+</LinearLayout>
+
+
+

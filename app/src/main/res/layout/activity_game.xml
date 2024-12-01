@@ -1,0 +1,65 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clics: 0"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginBottom="50dp"/>
+
+    <TextView
+        android:id="@+id/timerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tiempo: 30s"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginBottom="50dp"/>
+
+    <TextView
+        android:id="@+id/levelText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nivel: 1"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginBottom="50dp"/>
+
+    <Button
+        android:id="@+id/tapButton"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#F833E8"
+        android:text="Pulsa!"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/buttonStartGame"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#15FF21"
+        android:text="Iniciar Juego"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttonBackToMenu"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#EFF22A"
+        android:text="Volver al Menú" />
+</LinearLayout>
+
+
+
+

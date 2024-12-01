@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F4F4F4">
+
+    <!-- Título de Contacto -->
+    <TextView
+        android:id="@+id/contactTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contacto"
+        android:textSize="32sp"
+        android:textColor="#375AED"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Información básica del creador -->
+    <TextView
+        android:id="@+id/contactText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Desarrollador: Manuel De Oro López\nEmail: manuel.deorolopez24@campusfp.es\nTel: +34 123 456 789"
+        android:textSize="18sp"
+        android:textColor="#FF5722"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp" />
+
+    <!-- Campo para ingresar el nombre -->
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa tu nombre"
+        android:padding="16dp"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Campo para ingresar el mensaje -->
+    <EditText
+        android:id="@+id/editTextMessage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:hint="Escribe tu mensaje"
+        android:padding="16dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="top|start"
+        android:inputType="textMultiLine"/>
+
+    <!-- Botón para enviar el mensaje -->
+    <Button
+        android:id="@+id/buttonSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar"
+        android:backgroundTint="#375AED"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Botón para volver al menú -->
+    <Button
+        android:id="@+id/buttonBackToMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volver al Menú"
+        android:backgroundTint="#FF5722"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
+
